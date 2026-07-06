@@ -1,0 +1,8 @@
+path: ../data/raw/football_players/players
+train: images/train
+val: images/val
+
+names:
+  0: player
+  1: referee
+  2: ball

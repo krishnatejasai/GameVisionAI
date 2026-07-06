@@ -1,0 +1,34 @@
+{
+    "train": {
+        "num_images": 520,
+        "num_label_files": 520,
+        "total_objects": 11144,
+        "class_distribution": {
+            "0": 9916,
+            "1": 844,
+            "2": 384
+        },
+        "empty_label_files": [
+            "frame_0_91.txt",
+            "frame_0_90.txt",
+            "frame_0_89.txt"
+        ],
+        "average_objects_per_image": 21.43076923076923,
+        "min_objects_per_image": 0,
+        "max_objects_per_image": 28
+    },
+    "val": {
+        "num_images": 80,
+        "num_label_files": 80,
+        "total_objects": 1657,
+        "class_distribution": {
+            "0": 1467,
+            "1": 129,
+            "2": 61
+        },
+        "empty_label_files": [],
+        "average_objects_per_image": 20.7125,
+        "min_objects_per_image": 6,
+        "max_objects_per_image": 26
+    }
+}
