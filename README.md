@@ -2,6 +2,17 @@
 
 GameVision AI is an end-to-end computer vision pipeline for football video analytics. The system detects players, referees, and the ball from match footage, assigns persistent tracking IDs across frames, exports structured tracking data, and generates movement analytics including player trajectories, occupancy heatmaps, ball trajectories, and per-track motion statistics.
 
+## Visual Results
+
+### Player Trajectories
+![Player Trajectories](outputs/plots/match_clip_analytics/player_trajectories.png)
+
+### Player Occupancy Heatmap
+![Player Occupancy Heatmap](outputs/plots/match_clip_analytics/player_occupancy_heatmap.png)
+
+### Ball Trajectory
+![Ball Trajectory](outputs/plots/match_clip_analytics/ball_trajectory.png)
+
 ## Features
 
 - Custom YOLO-based object detection for:
