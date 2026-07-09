@@ -150,7 +150,7 @@ These statistics describe the continuity and fragmentation of predicted tracks. 
 
 The detector achieves strong performance for players and referees, with both classes exceeding **96% mAP@0.5**.
 
-Player detection achieves **99.19% mAP@0.5** and **98.77% recall**, supporting reliable downstream player tracking and trajectory generation.
+Player detection achieves **99.19% mAP@0.5** and **98.77% recall**, providing a strong detection foundation for downstream player tracking and trajectory generation.
 
 Ball detection remains the primary challenge. Although ball precision reaches **88.14%**, recall is **54.10%**, indicating missed detections caused by factors such as small object size, motion blur, occlusion, and broadcast-video compression.
 
@@ -248,7 +248,7 @@ GameVisionAI/
 │   └── visualize.py
 │
 ├── main.py
-├── requirements.txt
+├── run_evaluation.py
 ├── .gitignore
 └── README.md
 ```
@@ -260,7 +260,7 @@ GameVisionAI/
 Clone the repository:
 
 ```bash
-git clone <your-repository-clone-command>
+git clone https://github.com/krishnatejasai/GameVisionAI.git
 cd GameVisionAI
 ```
 
@@ -280,6 +280,12 @@ python3 -m pip install -r requirements.txt
 ---
 
 ## Usage
+
+### Run the Complete Evaluation Pipeline
+
+```bash
+python3 run_evaluation.py
+```
 
 ### Run the End-to-End Pipeline
 
