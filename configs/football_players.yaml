@@ -1,4 +1,5 @@
 path: ../data/raw/football_players/players
+
 train: images/train
 val: images/val
 

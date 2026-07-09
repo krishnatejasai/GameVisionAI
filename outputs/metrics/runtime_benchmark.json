@@ -1,0 +1,14 @@
+{
+    "model": "models/gamevision_yolov8s_960.pt",
+    "video": "data/sample_videos/match_clip.mp4",
+    "input_image_size": 960,
+    "video_resolution": {
+        "width": 640,
+        "height": 360
+    },
+    "source_fps": 25.0,
+    "processed_frames": 151,
+    "total_processing_time_seconds": 23.095703582000002,
+    "average_latency_ms_per_frame": 152.95167935099337,
+    "effective_fps": 6.538012555620267
+}

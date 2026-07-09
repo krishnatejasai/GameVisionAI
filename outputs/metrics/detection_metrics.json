@@ -1,0 +1,33 @@
+{
+    "model": "models/gamevision_yolov8s_960.pt",
+    "dataset_config": "configs/football_players.yaml",
+    "dataset_root": "/Users/saisrikrishnatejasanku/Desktop/gamevision-ai/data/raw/football_players/players",
+    "validation_split": "val",
+    "image_size": 960,
+    "overall": {
+        "precision": 0.9195416317182971,
+        "recall": 0.8299846593281965,
+        "mAP50": 0.8601034004617657,
+        "mAP50_95": 0.5830654546246213
+    },
+    "class_wise": {
+        "player": {
+            "precision": 0.971208372517646,
+            "recall": 0.9877300613496932,
+            "mAP50": 0.991911397386962,
+            "mAP50_95": 0.7468755176620726
+        },
+        "referee": {
+            "precision": 0.9059957120386105,
+            "recall": 0.9612403100775194,
+            "mAP50": 0.9624760275359001,
+            "mAP50_95": 0.7212524093025466
+        },
+        "ball": {
+            "precision": 0.8814208105986349,
+            "recall": 0.5409836065573771,
+            "mAP50": 0.6259227764624352,
+            "mAP50_95": 0.28106843690924466
+        }
+    }
+}

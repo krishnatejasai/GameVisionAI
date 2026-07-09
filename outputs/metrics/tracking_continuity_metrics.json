@@ -1,0 +1,33 @@
+{
+    "source_csv": "outputs/metrics/match_clip_tracking_results.csv",
+    "note": "Descriptive continuity statistics computed from predicted tracks. These are not ground-truth MOT metrics.",
+    "class_wise": {
+        "ball": {
+            "detections": 68,
+            "unique_track_ids": 7,
+            "mean_track_length_frames": 9.714285714285714,
+            "median_track_length_frames": 1.0,
+            "longest_track_frames": 30,
+            "tracks_at_least_10_frames": 3,
+            "tracks_at_least_30_frames": 1
+        },
+        "player": {
+            "detections": 1510,
+            "unique_track_ids": 39,
+            "mean_track_length_frames": 38.717948717948715,
+            "median_track_length_frames": 4.0,
+            "longest_track_frames": 151,
+            "tracks_at_least_10_frames": 17,
+            "tracks_at_least_30_frames": 15
+        },
+        "referee": {
+            "detections": 414,
+            "unique_track_ids": 12,
+            "mean_track_length_frames": 34.5,
+            "median_track_length_frames": 13.5,
+            "longest_track_frames": 145,
+            "tracks_at_least_10_frames": 7,
+            "tracks_at_least_30_frames": 4
+        }
+    }
+}

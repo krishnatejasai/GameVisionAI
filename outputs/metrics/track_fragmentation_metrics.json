@@ -1,0 +1,33 @@
+{
+    "source_csv": "outputs/metrics/match_clip_tracking_results.csv",
+    "note": "Track fragmentation and temporal coverage are computed from predicted ByteTrack outputs, not ground-truth MOT annotations.",
+    "class_wise": {
+        "ball": {
+            "total_frames_in_clip": 151,
+            "unique_track_ids": 7,
+            "mean_temporal_coverage": 0.9407867494824017,
+            "median_temporal_coverage": 1.0,
+            "mean_missing_frames_inside_track": 2.4285714285714284,
+            "longest_frame_span": 46,
+            "longest_observed_track": 30
+        },
+        "player": {
+            "total_frames_in_clip": 151,
+            "unique_track_ids": 39,
+            "mean_temporal_coverage": 0.8408172685100681,
+            "median_temporal_coverage": 0.9848484848484849,
+            "mean_missing_frames_inside_track": 8.282051282051283,
+            "longest_frame_span": 151,
+            "longest_observed_track": 151
+        },
+        "referee": {
+            "total_frames_in_clip": 151,
+            "unique_track_ids": 12,
+            "mean_temporal_coverage": 0.7001490618243148,
+            "median_temporal_coverage": 0.6769203413940257,
+            "mean_missing_frames_inside_track": 21.833333333333332,
+            "longest_frame_span": 151,
+            "longest_observed_track": 145
+        }
+    }
+}
